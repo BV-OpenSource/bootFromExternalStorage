@@ -84,7 +84,7 @@ wget -N https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/rel
 wget -N https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v4.3/release/Tegra_Linux_Sample-Root-Filesystem_r36.4.3_aarch64.tbz2
 
 # Unpack the files, creating the Linux_for_Tegra folder
-sudo tar -xpvf Jetson_linux_r36.4.3_aarch64.tbz2
+sudo tar -xpvf Jetson_Linux_r36.4.3_aarch64.tbz2
 
 cd Linux_for_Tegra/rootfs/
 sudo tar -xpvf ../../Tegra_Linux_Sample-Root-Filesystem_r36.4.3_aarch64.tbz2
